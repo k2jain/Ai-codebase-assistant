@@ -33,5 +33,5 @@ The assistant returns:
 - relevant functions/classes
 - file paths + line numbers
 - explanation of why each match is relevant
-![Demo](screenshot.png)
+
 
