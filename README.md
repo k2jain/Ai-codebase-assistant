@@ -20,3 +20,18 @@ Python, AST, SentenceTransformers, FAISS, Gradio, GitPython
 ## Run
 pip install -q sentence-transformers faiss-cpu gradio gitpython
 python codebase_assistant_ui.py
+
+## Demo
+
+Index a repository and ask questions like:
+
+- Where is authentication handled?
+- Where is login implemented?
+- Why might username throw a KeyError?
+
+The assistant returns:
+- relevant functions/classes
+- file paths + line numbers
+- explanation of why each match is relevant
+![Demo](screenshot.png)
+
